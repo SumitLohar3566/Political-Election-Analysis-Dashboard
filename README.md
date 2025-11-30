@@ -128,4 +128,9 @@ Sentiment analysis based on public comments
 
 This project is open-source. You may use it for learning or portfolio purposes.
 
+📞 Contact Developer: 
+Sumit Lohar
+📧 Email:sumitlohar063@gmail.com 
+🐙 GitHub: https://github.com/YOUR-USERNAME 
+🔗 LinkedIn:https://www.linkedin.com/feed/
 
