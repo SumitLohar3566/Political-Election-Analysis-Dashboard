@@ -1,128 +1,130 @@
-🗳️ Political Election Analysis Dashboard
+### Political Election Analysis Dashboard
 
 A complete and interactive Power BI dashboard designed to analyze political election data, including party-wise results, seat share, turnout percentage, constituency-level insights, winning margins, and vote share analytics.
 
-- Project Preview:
+# Project Preview:
 <img width="1323" height="736" alt="Screenshot 2025-11-30 203507" src="https://github.com/user-attachments/assets/86ea064c-340f-4a3e-9e83-b98f2d456135" />
 <img width="1327" height="748" alt="Screenshot 2025-11-30 203524" src="https://github.com/user-attachments/assets/b8a07425-8bd1-4589-8281-176a4ee45427" />
 
-- Project Overview
+# Project Overview
 
-This dashboard provides a deep analytical overview of election trends and performance.
-It helps understand:
+- This dashboard provides a deep analytical overview of election trends and performance.
 
-Which party is leading?
+# It helps understand:
 
-Winning margins per constituency
+- Which party is leading?
 
-Vote share distribution
+- Winning margins per constituency
 
-Seats gained/lost
+- Vote share distribution
 
-Year-wise comparison
+- Seats gained/lost
 
-Voter turnout analysis
+- Year-wise comparison
 
-The dashboard is ideal for data visualization, political research, and election insights.
+- Voter turnout analysis
 
-- Dataset Information
+- The dashboard is ideal for data visualization, political research, and election insights.
+
+# Dataset Information:
 
 The dataset used in the dashboard includes:
 
-Constituency Name
+- Constituency Name
 
-Leading Candidate
+- Leading Candidate
 
-Leading Party
+- Leading Party
 
-Winning Margin
+- Winning Margin
 
-Year
+- Year
 
-Total Votes
+- Total Votes
 
-Turnout %
+- Turnout %
 
-Party-wise seat distribution
+- Party-wise seat distribution
 
-- Key Features
-✔️ 1. Party-wise Seat Share
+# Key Features:
+1. Party-wise Seat Share
 
 Beautifully designed donut chart showing seats won by each political party.
 
-✔️ 2. Constituency-level Details
+2. Constituency-level Details
 
-Table showing:
+# Table showing:
 
-Leading candidate
+- Leading candidate
 
-Party
+- Party
 
-Winning margin
+- Winning margin
 
-Constituency comparison
+- Constituency comparison
 
-✔️ 3. Winning Votes by Leading Party
+ 3. Winning Votes by Leading Party
 
-Line chart showing winning margins across different constituencies.
+- Line chart showing winning margins across different constituencies.
 
-✔️ 4. Year-wise Filtering
+ 4. Year-wise Filtering
 
-A dynamic filter allowing comparison of different election years:
+- A dynamic filter allowing comparison of different election years:
 
-2009
+- 2009
 
-2014
+- 2014
 
-2019
+- 2019
 
-2024 
+- 2024 
 
-✔️ 5. Constituency Count by Year & Leading Party
+5. Constituency Count by Year & Leading Party
 
-Bar chart describing which party dominated across various years.
+- Bar chart describing which party dominated across various years.
 
-✔️ 6. KPI Cards
+6. KPI Cards
 
-Total Seats
+- Total Seats
 
-Total Votes
+- Total Votes
 
-Turnout %
+- Turnout %
 
-Winning Votes
+- Winning Votes
 
-- Tools & Technologies Used
-Tool	Purpose
-Power BI Desktop	Dashboard & Data Visualization
-Excel / CSV Files	Data Source Processing
-DAX	Calculated Columns & Measures
-Power Query	Data Cleaning & Shaping
-🧩 Important DAX Measures Used (Example)
-Total Seats = COUNTROWS(Seats)
+# Tools & Technologies Used:
+
+- Power BI Desktop	Dashboard & Data Visualization
+- Excel / CSV Files	Data Source Processing
+- DAX	Calculated Columns & Measures
+- Power Query	Data Cleaning & Shaping
+
+# Important DAX Measures Used (Example):
+- Total Seats = COUNTROWS(Seats)
 
 Turnout Percentage = 
 DIVIDE( SUM(Votes[Total Voters Attended]), SUM(Votes[Total Registered Voters]) ) * 100
 
 Winning Margin = SUM(Constituency[Margin])
 
-🚀 How to Use
+# How to Use:
 
-Download the .pbix file
+- Download the .pbix file
 
-Open in Power BI Desktop
+- Open in Power BI Desktop
 
-Explore dashboard features
+- Explore dashboard features
 
-Use slicers for:year, party, or candidate
+- Use slicers for:year, party, or candidate
 
-- Future Enhancements
+# Future Enhancements:
 
-Interactive maps
+- Interactive maps
 
-Prediction of winning chances using ML
+- Prediction of winning chances using ML
 
-Sentiment analysis based on public comments
+- Sentiment analysis based on public comments
 
 - License
 
